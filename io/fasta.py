@@ -1,6 +1,7 @@
 """
-Since skbio and Biopython are overkill and slightly to complicated most of the time
-I came up with this really simple fasta-io class.
+Read and write fasta format [1].
+
+[1] http://blast.ncbi.nlm.nih.gov/blastcgihelp.shtml
 """
 from itertools import groupby
 
